@@ -40,7 +40,7 @@ install node.js
 node server.js
 ```
 
-### Step 4: Opening Website
+### Step 4: Ngrok
 Open Diffrent Terminal in the same location and tye
 
 ```bash
