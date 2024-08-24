@@ -14,7 +14,7 @@ Phish Pro is a phishing website designed to help users identify and avoid phishi
 
 ### Prerequisites
 
-- [nodeJs]
+- [nodejs]
 - [ngrok]
 
 ### Step 1: Clone the Repository
